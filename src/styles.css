@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Proxima Nova', sans-serif;
+  }
+  
+  a {
+    color: #5c9fe6;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  
+  .hero-section button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+  }
+  
+  /* Features section styles */
+  .features-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  .features-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  
+  .features-section .feature-item {
+    margin-bottom: 60px;
+  }
+  
+  .features-section .feature-item i {
+    color: #007bff;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .features-section .feature-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .features-section .feature-item p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  /* Call to action section styles */
+  .cta-section {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .cta-section p {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  
+  .cta-section button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+  }
+  
+  .cta-section button:hover {
+    background-color: #0069d9;
+    color: #ffffff;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 5 px
+}
